@@ -1,0 +1,30 @@
+# Site settings
+title: Ginger Bread
+header-img: img/home-bg.jpg
+email: fzakaria@codegarage.co
+description: "Just yet another blog"
+url: "http://gingerbread.com"
+twitter_username: faizalzakaria
+github_username:  faizalzakaria
+facebook_username: t
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+lsi:         false
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     []
+timezone:    nil
