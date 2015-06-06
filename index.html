@@ -13,6 +13,7 @@ description: "Anything to do with Software and Hardware!"
             {{ post.subtitle }}
         </h3>
         {% endif %}
+        <p>{{ post.excerpt }}</p>
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
