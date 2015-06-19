@@ -1,7 +1,21 @@
+---
+layout:     post
+title:      "How to setup FluentD with S3"
+date:       2015-03-14 3:45pm
+author:     "Faizal F Zakaria"
+header-img: "img/post-bg-01.jpg"
+excerpt:    "This post is briefly to show you how we could setup the fluentD server with S3"
+---
 
-can also install fluentD using [Chef](https://www.chef.io/chef/), and I prefer to use [this](https://github.com/dmytro/fluentd-cookbook).
+This post is briefly show you how we could setup the fluentD server with S3.
 
-You can configure a fluentD chef role  as such:
+### Im going to use:
+
+- digital ocean, a cheap server of $5 / month
+- fluentD Chef cookbook, [this](https://github.com/dmytro/fluentd-cookbook)
+- fluentd_service chef cookbook, [Chef](https://github.com/faizalfikhri/fluentd_service-cookbook)
+
+You can configure a fluentD chef role as such:
 
 {% highlight json %}
 {
@@ -54,3 +68,4 @@ You can configure a fluentD chef role  as such:
 }
 {% endhighlight %}
 
+But there is a limitation on this chef cookbook. I'm extending it through fluentd_service-cookbook, where it would use my own template to create match and source conf files.
