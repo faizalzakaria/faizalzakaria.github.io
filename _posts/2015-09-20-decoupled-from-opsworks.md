@@ -90,7 +90,7 @@ So this is how it looks like to extend the cookbook,
   opsworks-cookbooks.
 - modify / copy  etc.
 - Push the code to your repository.
-- In the Opsworks UI, add your recipe, in one of thise lifecyles, e.g:
+- In the Opsworks UI, add your recipe, in one of these lifecyles, e.g:
   `deploy`.
 - In the Opsworks UI, run the `update the custom cookbooks`.
 - Then click the `deploy`, and it should already uses your custom
@@ -141,7 +141,7 @@ of support from the common libraries that I want to use.
 cached the code, so it improves the deployment time.
 - To extend our deployment process is piece of cake. All written in
   Ruby, testing is straight forward and fast.
-- More verbose to the developers.
+- More verbose to the developpers.
 - More reliable, to restart the unicorns, resques workers etc take
   only a few seconds.
 
