@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Why I moved out from Opsworks to Capistrano"
+title:      "Why I moved out from OpsWorks to Capistrano"
 date:       Sun Sep 20 11:07:33 ICT 2015
 author:     "Faizal F Zakaria"
 header-img: "img/post-bg-01.jpg"
