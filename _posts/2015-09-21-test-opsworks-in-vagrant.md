@@ -1,10 +1,11 @@
 ---
-layout:     post
-title:      "Test Opsworks in Vagrant"
-date:       "Mon Sep 21 23:17:38 MYT 2015"
-author:     "Faizal F Zakaria"
-header-img: "img/post-bg-01.jpg"
-excerpt:    "How annoying it is to test Opsworks custom recipe in AWS ?"
+layout: post
+title: Test Opsworks in Vagrant
+date: 'Mon Sep 21 23:17:38 MYT 2015'
+author: Faizal F Zakaria
+header-img: img/post-bg-01.jpg
+excerpt: How annoying it is to test Opsworks custom recipe in AWS ?
+published: true
 ---
 
 <h4>How Opsworks work?</h4>
@@ -80,4 +81,3 @@ would look something as below :
 {% endhighlight %}
 
 Feel free to get in touch with me to know more on how to do this.
-
