@@ -15,17 +15,8 @@ namespace :site do
     })).process
   end
 
-  desc "Generate and publish blog to CodeGarage.co"
+  desc "Generate and publish blog to s3"
   task :publish => [:generate] do
-    system 'git checkout master'
-    system 'git branch'
-    Dir.chdir '_site'
-    system "git add ."
-    message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-    system "git push origin master:refs/heads/master --force"
-    system 'git branch'
-    system 'git checkout source'
+    puts `aws s3 sync _site s3://blog.codegarage.co --profile codegarage`
   end
 end
