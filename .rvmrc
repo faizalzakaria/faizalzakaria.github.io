@@ -1,1 +1,1 @@
-rvm use --create ruby-2.4.0@blog
+rvm use --create ruby-2.3.1@blog
