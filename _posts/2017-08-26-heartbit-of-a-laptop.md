@@ -1,13 +1,29 @@
 ---
+layout:     post
+title:      "Heartbit of my laptop"
+author:     "Faizal F Zakaria"
+header-img: "img/post-bg-01.jpg"
+excerpt:    "<h4>Heartbit of my laptop ?</h4>
+Do you work from a coffee shop, co working space, or a public area ?
+And you need a quick trip to restroom ? Isn't annoying that none can
+help you to keep an eye on your laptop ? The source of your income."
 published: true
 ---
-## Heartbit of my laptop.
 
 ### Briefly the context
 
-Since I quit as a CTO of Duriana.com (acquired by [Carousell.com](https://carousell.com/)), which was around Nov 2015, I've been working remotely, travelling around the world, to name a few, Turkey 2 weeks, small island in Thailand for 2 weeks, Japan 2 weeks, Ho Chi Minh 3 weeks, Bali & Lombok 3 weeks, Australia 1 month, Chiang Mai 1 month, etc, from one coffee shop to another, to work, in a very unique way as much as possible, but yet still keep my productivity high.
+Since I quit as a CTO of Duriana.com (acquired by
+[Carousell.com](https://carousell.com/)), which was around Nov 2015,
+I've been working remotely, travelling around the world, to name a
+few, Turkey 2 weeks, small island in Thailand for 2 weeks, Japan 2
+weeks, Ho Chi Minh 3 weeks, Bali & Lombok 3 weeks, South Korea 1
+month, Australia 1 month, Chiang Mai 1 month, etc, from one coffee shop to another, to work, in a very unique way as much as possible, but yet still keep my productivity high.
 
-But things that I realized was, it was a challenge for me to stay in a 1 coffee shop for a longer period of time, when I'm working alone. Why ? Because every 3 hours, I would defenitely need a restroom, to do a quick business. Leaving my laptop unattended is just too risky (or maybe I don't have worry that much). And most of the time, I ended up packing up my bag and just leave and hop on to the next coffee shop. Sometimes I just don't feel like moving to another coffee shop, but I'm just too paranoid to leave it unattended although all I need is just in average likely 5 - 10 minutes.
+But things that I realized was, it was a challenge for me to stay in a
+1 coffee shop for a longer period of time, when I'm working alone. Why
+? Because every 3 hours, I would defenitely need a restroom, to do a
+quick business. Leaving my laptop unattended is just too risky (or
+maybe I just don't have worry that much). And most of the time, I ended up packing up my bag and just leave and hop on to the next coffee shop. Sometimes I just don't feel like moving to another coffee shop, but I'm just too paranoid to leave it unattended although all I need is just in average likely 5 - 10 minutes.
 
 ### How HeartTop was borned ?
 
@@ -19,9 +35,8 @@ It was borned in [Punspace](http://www.punspace.com/), an awesome co-working spa
 
 Well right now, it only supports Slack as a plugin, its pretty much straight forward, you run the HeartTop with Slack incoming Webhook url (assuming you have slack installed in your mobile). Once run, leave your laptop open, run the screensaver, lock it, and enjoy walking around the City without your laptop. Isn't awesome ?
 
-### Why [slack](https://slack.com/) ? 
-
-Its a very obvious reason, I only need a notifications infra, using [Slack](https://slack.com/), I don't have to build the Mobile app, plus [Slack](https://slack.com/) is very responsive on incoming webhooks, pretty much reliable, on every 10 seconds it sends push notification to my phone without almost a miss.
+Why [slack](https://slack.com/) ? Its a very obvious reason, I only
+need a notifications infra, by using [Slack](https://slack.com/), I don't have to build the Mobile app, plus [Slack](https://slack.com/) is very responsive on incoming webhooks, pretty much reliable, on every 10 seconds it sends push notification to my phone without almost a miss.
 
 ### Conclusion
 
@@ -36,7 +51,5 @@ Few things I think it could be improved,
 - Likely to send picture of the surrounding every N seconds
 - Run in in the driver layer.
 
-If you feel like contributing, here is the link, https://github.com/faizalzakaria/heart_top .
+If you feel like contributing, here is the link, [https://github.com/faizalzakaria/heart_top](https://github.com/faizalzakaria/heart_top).
 
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
