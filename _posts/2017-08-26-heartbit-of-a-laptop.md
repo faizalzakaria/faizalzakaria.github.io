@@ -2,7 +2,7 @@
 layout: post
 title: Heartbit of my laptop
 author: Faizal F Zakaria
-header-img: img/heartbit.jpg
+header-img: img/heartbit-header.jpg
 excerpt: >-
   <h4>Heartbit of my laptop ?</h4> Do you work from a coffee shop, co working
   space, or a public area ? And you need a quick trip to restroom ? Isn't

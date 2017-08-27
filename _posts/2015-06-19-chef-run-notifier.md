@@ -119,4 +119,4 @@ I hope this helps.
 
 ![Sample](/img/samples.png)
 
-https://github.com/faizalzakaria/chef-run-notifier
+[https://github.com/faizalzakaria/chef-run-notifier](https://github.com/faizalzakaria/chef-run-notifier)
