@@ -118,3 +118,5 @@ include_recipe 'run-notifier'
 I hope this helps.
 
 ![Sample](/img/samples.png)
+
+https://github.com/faizalzakaria/chef-run-notifier

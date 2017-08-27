@@ -25,7 +25,7 @@ can. The things that drive me the most is work and travel.
 
 But things that I realized was, it was a challenge for me to stay in a
 1 coffee shop for a longer period of time, when I'm working alone. Why
-? Because every 3 hours, I would defenitely need a restroom, to do a
+? Because every 3 hours, I would definitely need a restroom, to do a
 quick business or sometimes worst, I need a quick dump. Leaving my laptop unattended is just too risky (or
 maybe I just too paranoid). And most of the time, I ended up packing
 up my bag and leave, and then hop on to the next coffee shop. Sometimes I just don't feel like moving to another coffee shop, but I'm just too paranoid to leave it unattended although all I need is just in average likely 5 - 10 minutes.
@@ -44,10 +44,11 @@ Well right now, it only supports Slack as a plugin, its pretty much straight for
 - Once run, leave your laptop open,
 - run the screensaver,
 - lock the screen,
-- and enjoy walking around the City without your it. Isn't awesome ?
+- and enjoy walking around the City without your laptop. Isn't awesome ?
 - Or you can dump calmly. :)
 
-Well I tried running it for 60 minutes, walked around the night market, worryless, left my laptop unattended at the co-working space.
+Well I tried running it for 60 minutes, walked around the night
+market, worry less, left my laptop unattended at the co-working space.
 
 Why [slack](https://slack.com/) ? It is a very obvious reason, I only
 need a notification infra, by using [Slack](https://slack.com/), I don't have to build the Mobile app, plus [Slack](https://slack.com/) is very responsive on incoming webhooks, pretty much reliable, every 10 seconds it sends push notification to my phone almost without a miss.
@@ -58,16 +59,18 @@ need a notification infra, by using [Slack](https://slack.com/), I don't have to
 
 I feel relaxed since, less worried about my laptop, I can just pretty
 much walk around, without it. It feels like my laptop is just so close
-to me, that I can feel it breathes every 10 seconds. I also tested this in a co-working space in Malaysia, [worq](https://worq.space/), and I've been using it since.
+to me, that I can feel its breathing every 10 seconds. I also tested this in a co-working space in Malaysia, [worq](https://worq.space/), and I've been using it since.
 
 So for those who work remotely, somewhere, in a random area, likely this could be very helpful to you.
 
 Of course, people might think, someone can just steals it, but at
-least I know something is just not right, as soon as the heartbit stops. Just like when you leave your kids at home, it could be good if you could feel the hearbit of your kids every N seconds, right ?
+least I know something is just not right, as soon as the heartbit stops. Just like when you leave your kids at home, it could be good if you could feel the hearbit of your kids every N seconds, no ?
 
 Few things that I think it could be improved,
 
 - Likely to send picture of the surrounding every N seconds
 - Run in in the driver layer.
 
-If you feel like contributing, here is the link, [https://github.com/faizalzakaria/heart_top](https://github.com/faizalzakaria/heart_top). Just keep in mind, the code is still in MVP mode.
+If you feel like contributing, here is the link,
+[https://github.com/faizalzakaria/heart_top](https://github.com/faizalzakaria/heart_top).
+Just keep in mind, the code is still in MVP mode.
